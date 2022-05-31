@@ -1,0 +1,44 @@
+/* start global variables */
+* {
+  --main-color: #6c63ff;
+  --secondary-color: #00bf8e;
+  --third-color: #fff;
+  --fourth-color: #000;
+  --fifth-color: #f7c94b;
+  --sixth-color: #f75842;
+  --Seventh-color: #1f2641;
+  --eighth-color: #2e3267;
+  --ninth-color: #424890;
+  --color-dgr1: rgba(247, 88, 66, 0.6);
+  ---color-dgr2: rgba(255, 255, 255, 0.7);
+  --main-transition: 0.4s;
+}
+/* end global variables */
+
+/* start courses section */
+.courses .card .card-img-top {
+  border-radius: 6px 6px 0px 0px;
+}
+
+.courses .card .card-body {
+  border-radius: 5px 5px 6px 6px;
+  border: 1px solid transparent;
+  background-color: var(--eighth-color);
+  transition: var(--main-transition);
+}
+
+.courses .card:hover .card-body {
+  background-color: transparent;
+  border: 1px solid var(--eighth-color);
+}
+
+
+.courses .card .image-box {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.courses .card .image-box img {
+  width: 100% !important;
+  height: 100% !important;
+}

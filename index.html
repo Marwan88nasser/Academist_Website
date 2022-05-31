@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academist</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- swiper js library -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- start navbar page -->
+    <nav
+      class="navbar navbar-expand-md bg-transparent position-fixed top-0 w-100"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="images/Logo-light.png"
+            alt="Website logo"
+            class="logo d-inline-block align-text-center"
+          />
+        </a>
+        <!-- position-absolute -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link position-relative text-white" href="index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link position-relative text-white" href="about.html"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link position-relative text-white" href="courses.html"
+              >Courses</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link position-relative text-white" href="contact.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <div
+          class="burger-icon position-relative d-flex d-md-none align-items-center justify-content-center"
+        >
+          <div class="lines rounded-pill bg-white"></div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar page -->
+    <!-- start landing section -->
+    <div class="landing-section">
+      <div class="container">
+        <div class="landing-content">
+          <div class="row d-flex align-items-center">
+            <div class="col-12 col-md-6">
+              <div class="landing-text text-center text-md-start">
+                <h1 class="text-white mb-3">
+                  Grow Your Skills To Advanced Your Career Path
+                </h1>
+                <p class="text-white">
+                  Ready to learn and have fun? Find a perfect course and join us
+                  today.
+                </p>
+                <button class="button-effect mt-1">
+                  <a href="courses.html" class="text-decoration-none text-white"
+                    >Get Started</a
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="landing-image d-flex justify-content-center">
+                <img
+                  class="image-fluid w-100"
+                  src="images/landing-image.svg"
+                  alt="image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end landing section -->
+    <!-- start categories section -->
+    <div class="categories py-5 position-relative">
+      <div class="container">
+        <div class="row gy-5 flex-column flex-md-row">
+          <div class="col-12 col-md-6 justify-content-center">
+            <div class="categories-text text-center text-md-start">
+              <h2 class="text-white text-capitalize">categories</h2>
+              <p class="text-white">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro
+                voluptatem fugit vero, sunt praesentium recusandae earum. Odit
+                modi laborum quisquam.
+              </p>
+              <button class="button-effect text-capitalize">
+                <a class="text-black text-decoration-none" href="#"
+                  >learn more</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 cat">
+            <div class="categories-options">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="cat-option mb-4">
+                    <div
+                      class="icon-holder text-white fs-4 rounded-3 mb-3 d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fa-solid fa-b"></i>
+                    </div>
+                    <h5 class="text-white text-capitalize">blockchain</h5>
+                    <p class="text-white fw-light">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Obcaecati, totam labore.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="cat-option mb-4">
+                    <div
+                      class="icon-holder graph fs-4 text-white rounded-3 mb-3 d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fa-solid fa-palette"></i>
+                    </div>
+                    <h5 class="text-white text-capitalize">graphic design</h5>
+                    <p class="text-white fw-light">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Obcaecati, totam labore.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="cat-option mb-4">
+                    <div
+                      class="icon-holder money fs-4 text-white rounded-3 mb-3 d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fa-solid fa-dollar-sign"></i>
+                    </div>
+                    <h5 class="text-white text-capitalize">finance</h5>
+                    <p class="text-white fw-light">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Obcaecati, totam labore.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="cat-option mb-4">
+                    <div
+                      class="icon-holder marketing fs-4 text-white rounded-3 mb-3 d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+                    <h5 class="text-white text-capitalize">marketing</h5>
+                    <p class="text-white fw-light">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Obcaecati, totam labore.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end categories section -->
+    <!-- start courses section -->
+    <div class="courses-section py-5">
+      <div
+        class="title-section d-flex align-items-center justify-content-center my-5 mt-lg-0"
+      >
+        <h2
+          class="section-name text-white text-capitalize position-relative mb-5"
+        >
+          our popular courses
+        </h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+            <div class="card border-0 bg-transparent">
+              <img
+                src="images/course-2.jpg"
+                class="card-img-top image-fluid"
+                alt="template-image"
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title text-white mb-3 mt-2 text-capitalize">
+                  responsive smarthome Website ui
+                </h4>
+                <p class="card-text text-white mb-4">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Magnam tenetur exercitationem dicta vitae, sequi ullam sunt
+                  soluta possimus repellat illum.
+                </p>
+                <button class="button-effect mb-2">
+                  <a
+                    href="courses.html"
+                    class="text-white text-capitalize text-decoration-none"
+                    >learn more</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mt-5 mt-md-4 mt-lg-0">
+            <div class="card border-0 bg-transparent">
+              <img
+                src="images/course-1.png"
+                class="card-img-top image-fluid"
+                alt="template-image"
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title text-white mb-3 mt-2 text-capitalize">
+                  responsive admin dashboard Website ui
+                </h4>
+                <p class="card-text text-white mb-4">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Magnam tenetur exercitationem dicta vitae, sequi ullam sunt
+                  soluta possimus repellat illum.
+                </p>
+                <button class="button-effect mb-2">
+                  <a
+                    href="courses.html"
+                    class="text-white text-capitalize text-decoration-none"
+                    >learn more</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mt-5 mt-lg-0">
+            <div class="card border-0 bg-transparent">
+              <img
+                src="images/course-3.png"
+                class="card-img-top image-fluid"
+                alt="template-image"
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title text-white mb-3 mt-2 text-capitalize">
+                  responsive portfolio Website ui
+                </h4>
+                <p class="card-text text-white mb-4">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Magnam tenetur exercitationem dicta vitae, sequi ullam sunt
+                  soluta possimus repellat illum.
+                </p>
+                <button class="button-effect mb-2">
+                  <a
+                    href="courses.html"
+                    class="text-white text-capitalize text-decoration-none"
+                    >learn more</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end courses section -->
+    <!-- start frequently section -->
+    <div class="frequently py-5">
+      <div
+        class="title-section d-flex align-items-center justify-content-center my-5 mt-lg-0"
+      >
+        <h2
+          class="section-name text-white text-capitalize position-relative mb-5"
+        >
+          frequently asked question
+        </h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="frequently-content mb-3">
+              <button
+                class="issue text-capitalize text-white w-100 border-0 text-start position-relative"
+              >
+                how do i know the right courses for me?
+              </button>
+              <div class="question">
+                <p class="text-white text-capitalize mb-0 py-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis ex, amet nemo ipsa, fuga earum at eaque cupiditate
+                  asperiores nulla est quibusdam corporis repellendus quidem.
+                </p>
+              </div>
+            </div>
+            <div class="frequently-content mb-3">
+              <button
+                class="issue text-capitalize text-white w-100 border-0 text-start position-relative"
+              >
+                do i get a refund if the courses isn't worth my money?
+              </button>
+              <div class="question">
+                <p class="text-white text-capitalize mb-0 py-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis ex, amet nemo ipsa, fuga earum at eaque cupiditate
+                  asperiores nulla est quibusdam corporis repellendus quidem.
+                </p>
+              </div>
+            </div>
+            <div class="frequently-content mb-3">
+              <button
+                class="issue text-capitalize text-white w-100 border-0 text-start position-relative"
+              >
+                will you assist me to my first job?
+              </button>
+              <div class="question">
+                <p class="text-white text-capitalize mb-0 py-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis ex, amet nemo ipsa, fuga earum at eaque cupiditate
+                  asperiores nulla est quibusdam corporis repellendus quidem.
+                </p>
+              </div>
+            </div>
+            <div class="frequently-content mb-3">
+              <button
+                class="issue text-capitalize text-white w-100 border-0 text-start position-relative"
+              >
+                what are the requerments to start?
+              </button>
+              <div class="question">
+                <p class="text-white text-capitalize mb-0 py-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis ex, amet nemo ipsa, fuga earum at eaque cupiditate
+                  asperiores nulla est quibusdam corporis repellendus quidem.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="frequently-content mb-3">
+              <button
+                class="issue text-capitalize text-white w-100 border-0 text-start position-relative"
+              >
+                do i get certificate for every course i take?
+              </button>
+              <div class="question">
+                <p class="text-white text-capitalize mb-0 py-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis ex, amet nemo ipsa, fuga earum at eaque cupiditate
+                  asperiores nulla est quibusdam corporis repellendus quidem.
+                </p>
+              </div>
+            </div>
+            <div class="frequently-content mb-3">
+              <button
+                class="issue text-capitalize text-white w-100 border-0 text-start position-relative"
+              >
+                will i have lifetiem access to courses i purchase?
+              </button>
+              <div class="question">
+                <p class="text-white text-capitalize mb-0 py-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis ex, amet nemo ipsa, fuga earum at eaque cupiditate
+                  asperiores nulla est quibusdam corporis repellendus quidem.
+                </p>
+              </div>
+            </div>
+            <div class="frequently-content mb-3">
+              <button
+                class="issue text-capitalize text-white w-100 border-0 text-start position-relative"
+              >
+                what are your payment optios?
+              </button>
+              <div class="question">
+                <p class="text-white text-capitalize mb-0 py-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis ex, amet nemo ipsa, fuga earum at eaque cupiditate
+                  asperiores nulla est quibusdam corporis repellendus quidem.
+                </p>
+              </div>
+            </div>
+            <div class="frequently-content mb-3">
+              <button
+                class="issue text-capitalize text-white w-100 border-0 text-start position-relative"
+              >
+                do i get all source code from projects?
+              </button>
+              <div class="question">
+                <p class="text-white text-capitalize mb-0 py-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis ex, amet nemo ipsa, fuga earum at eaque cupiditate
+                  asperiores nulla est quibusdam corporis repellendus quidem.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end frequently section -->
+    <!-- start testimonials section -->
+    <div class="testimonials-section py-5">
+      <div
+        class="title-section d-flex align-items-center justify-content-center my-5 mt-lg-0"
+      >
+        <h2
+          class="section-name text-white text-capitalize position-relative mb-5"
+        >
+          student testimonials
+        </h2>
+      </div>
+      <div class="container">
+        <div class="mySwiper position-relative">
+          <div class="swiper-wrapper" style="cursor: grab">
+            <div
+              class="testimonials swiper-slide text-center d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="avatar rounded-circle p-3 mb-3">
+                <img
+                  src="images/testmo-1.jpg"
+                  alt="testimonials-image"
+                  class="rounded-circle"
+                />
+              </div>
+              <div class="testimonial-info mb-5">
+                <h6 class="text-white text-capitalize mb-1">Noah James</h6>
+                <small class="text-white text-capitalize fw-light"
+                  >web developer</small
+                >
+              </div>
+              <div class="testimonials-body p-4 position-relative">
+                <p class="text-white text-md-start mb-0 fw-light">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                  iste recusandae facere placeat, fuga atque. Harum quos unde
+                  eaque debitis, error ipsum dolore qui id. Quae, quisquam!
+                  Veritatis, ipsa dolores?
+                </p>
+              </div>
+            </div>
+            <div
+              class="testimonials swiper-slide text-center d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="avatar rounded-circle p-3 mb-3">
+                <img
+                  src="images/testmo-2.jpg"
+                  alt="testimonials-image"
+                  class="rounded-circle"
+                />
+              </div>
+              <div class="testimonial-info mb-5">
+                <h6 class="text-white text-capitalize mb-1">Emma Liam</h6>
+                <small class="text-white text-capitalize fw-light"
+                  >student</small
+                >
+              </div>
+              <div class="testimonials-body p-4 position-relative">
+                <p class="text-white text-md-start mb-0 fw-light">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                  iste recusandae facere placeat, fuga atque. Harum quos unde
+                  eaque debitis, error ipsum dolore qui id. Quae, quisquam!
+                  Veritatis, ipsa dolores?
+                </p>
+              </div>
+            </div>
+            <div
+              class="testimonials swiper-slide text-center d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="avatar rounded-circle p-3 mb-3">
+                <img
+                  src="images/testmo-4.jpg"
+                  alt="testimonials-image"
+                  class="rounded-circle"
+                />
+              </div>
+              <div class="testimonial-info mb-5">
+                <h6 class="text-white text-capitalize mb-1">Sophia Elijah</h6>
+                <small class="text-white text-capitalize fw-light"
+                  >ui-ux design</small
+                >
+              </div>
+              <div class="testimonials-body p-4 position-relative">
+                <p class="text-white text-md-start mb-0 fw-light">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                  iste recusandae facere placeat, fuga atque. Harum quos unde
+                  eaque debitis, error ipsum dolore qui id. Quae, quisquam!
+                  Veritatis, ipsa dolores?
+                </p>
+              </div>
+            </div>
+            <div
+              class="testimonials swiper-slide text-center d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="avatar rounded-circle p-3 mb-3">
+                <img
+                  src="images/testmo-3.jpg"
+                  alt="testimonials-image"
+                  class="rounded-circle"
+                />
+              </div>
+              <div class="testimonial-info mb-5">
+                <h6 class="text-white text-capitalize mb-1">William Lucas</h6>
+                <small class="text-white text-capitalize fw-light"
+                  >backend developer</small
+                >
+              </div>
+              <div class="testimonials-body p-4 position-relative">
+                <p class="text-white text-md-start mb-0 fw-light">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                  iste recusandae facere placeat, fuga atque. Harum quos unde
+                  eaque debitis, error ipsum dolore qui id. Quae, quisquam!
+                  Veritatis, ipsa dolores?
+                </p>
+              </div>
+            </div>
+            <div
+              class="testimonials swiper-slide text-center d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="avatar rounded-circle p-3 mb-3">
+                <img
+                  src="images/testmo-5.jpg"
+                  alt="testimonials-image"
+                  class="rounded-circle"
+                />
+              </div>
+              <div class="testimonial-info mb-5">
+                <h6 class="text-white text-capitalize mb-1">Benjamin Oliver</h6>
+                <small class="text-white text-capitalize fw-light"
+                  >frontend developer</small
+                >
+              </div>
+              <div class="testimonials-body p-4 position-relative">
+                <p class="text-white text-md-start mb-0 fw-light">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                  iste recusandae facere placeat, fuga atque. Harum quos unde
+                  eaque debitis, error ipsum dolore qui id. Quae, quisquam!
+                  Veritatis, ipsa dolores?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination position-relative"></div>
+        </div>
+      </div>
+    </div>
+    <!-- end testimonials section -->
+    <!-- start footer -->
+    <footer class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="us text-center text-md-start">
+              <a class="brand" href="index.html">
+                <img
+                  src="images/Logo-light.png"
+                  alt="Website logo"
+                  class="logo mb-3"
+                />
+              </a>
+              <p class="text-white fw-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                provident hic accusamus. Voluptatibus officiis dicta vero?
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="permalinks text-center text-md-start">
+              <h4 class="text-white text-capitalize">permalinks</h4>
+              <ul class="footer-link list-unstyled">
+                <li class="mb-2">
+                  <a
+                    href="index.html"
+                    class="text-white text-capitalize text-decoration-none fw-light"
+                    >home</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a
+                    href="about.html"
+                    class="text-white text-capitalize text-decoration-none fw-light"
+                    >about</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a
+                    href="courses.html"
+                    class="text-white text-capitalize text-decoration-none fw-light"
+                    >courses</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a
+                    href="contact.html"
+                    class="text-white text-capitalize text-decoration-none fw-light"
+                    >contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="primacy text-center text-md-start">
+              <h4 class="text-white text-capitalize">primacy</h4>
+              <ul class="footer-link list-unstyled">
+                <li
+                  class="mb-2 text-white text-capitalize text-decoration-none fw-light"
+                >
+                  privacy policy
+                </li>
+                <li
+                  class="mb-2 text-white text-capitalize text-decoration-none fw-light"
+                >
+                  terms & conditions
+                </li>
+                <li
+                  class="mb-2 text-white text-capitalize text-decoration-none fw-light"
+                >
+                  refund pplicy
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="info text-center text-md-start">
+              <h4 class="text-white text-capitalize">contact us</h4>
+              <p class="text-white text-capitalize mb-2 fw-light">
+                +01 234 567 891
+              </p>
+              <p class="text-white text-capitalize fw-light">
+                academist229@gmail.com
+              </p>
+              <ul
+                class="social d-flex align-items-center justify-content-center justify-content-md-start ps-0 mb-0"
+              >
+                <li
+                  class="d-flex align-items-center justify-content-center rounded-circle me-3"
+                >
+                  <a
+                    href="#"
+                    class="d-flex align-items-center justify-content-center"
+                  >
+                    <i
+                      class="fa-brands fa-facebook facebook-icon text-white fs-5"
+                    ></i>
+                  </a>
+                </li>
+                <li
+                  class="d-flex align-items-center justify-content-center rounded-circle me-3"
+                >
+                  <a
+                    href="#"
+                    class="d-flex align-items-center justify-content-center"
+                  >
+                    <i
+                      class="fa-brands fa-twitter twitter-icon text-white fs-5"
+                    ></i>
+                  </a>
+                </li>
+                <li
+                  class="d-flex align-items-center justify-content-center rounded-circle me-3"
+                >
+                  <a
+                    href="#"
+                    class="d-flex align-items-center justify-content-center"
+                  >
+                    <i
+                      class="fa-brands fa-linkedin linkedin-icon text-white fs-5"
+                    ></i>
+                  </a>
+                </li>
+                <li
+                  class="d-flex align-items-center justify-content-center rounded-circle"
+                >
+                  <a
+                    href="#"
+                    class="d-flex align-items-center justify-content-center"
+                  >
+                    <i
+                      class="fa-brands fa-youtube youtube-icon text-white fs-5"
+                    ></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <!-- swiper js library -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      // Frequently asked question section
+      let issueBtn = document.querySelectorAll(".issue");
+
+      issueBtn.forEach((ele) => {
+        ele.addEventListener("click", (e) => {
+          e.target.classList.toggle("active");
+          let questionDes = e.target.nextElementSibling;
+          if (questionDes.style.maxHeight === `${questionDes.scrollHeight}px`) {
+            questionDes.style.maxHeight = "0px";
+          } else {
+            questionDes.style.maxHeight = `${questionDes.scrollHeight}px`;
+          }
+        });
+      });
+
+      // testimonial slider by swiper library
+      let swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

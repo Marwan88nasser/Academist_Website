@@ -1,0 +1,114 @@
+/* start global variables */
+* {
+  --main-color: #6c63ff;
+  --secondary-color: #00bf8e;
+  --third-color: #fff;
+  --fourth-color: #000;
+  --fifth-color: #f7c94b;
+  --sixth-color: #f75842;
+  --Seventh-color: #1f2641;
+  --eighth-color: #2e3267;
+  --ninth-color: #424890;
+  --color-dgr1: rgba(247, 88, 66, 0.6);
+  ---color-dgr2: rgba(255, 255, 255, 0.7);
+  --main-transition: 0.4s;
+}
+/* end global variables */
+
+/* start achievement section */
+.achievement-section .container .ach-image {
+  width: 90%;
+}
+
+.achievement-section .container .card {
+  background-color: var(--eighth-color);
+  border-radius: 6px;
+  transition: var(--main-transition);
+  box-shadow: 0 0 7px 0 #1a1a1a75;
+}
+
+.achievement-section .container .card:hover {
+  background-color: var(--ninth-color);
+  box-shadow: 0 0 30px 0 #1a1a1a75;
+}
+
+.achievement-section .container .card .icon-holder {
+  width: 45px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.achievement-section .container .card .course {
+  background-color: var(--sixth-color);
+}
+
+.achievement-section .container .card .student {
+  background-color: var(--secondary-color);
+}
+
+.achievement-section .container .card .awards {
+  background-color: var(--main-color);
+}
+/* end achievement section */
+
+/* start team section  */
+.team-section .container .card {
+  background-color: var(--ninth-color);
+  border-radius: 10px;
+  border: 1px solid var(--ninth-color);
+  transition: var(--main-transition);
+  overflow: hidden !important;
+}
+
+.team-section .container .card:hover {
+  background-color: transparent;
+}
+
+.team-section .container .card .team-image {
+  width: 200px;
+  height: 200px;
+}
+
+.team-section .container .card .team-image img {
+  transition: var(--main-transition);
+  filter: grayscale(1);
+}
+
+.team-section .container .card:hover .team-image img {
+  filter: grayscale(0);
+}
+
+
+.team-section .container .card .card-body .card-text {
+  color: #b3affa;
+}
+
+.team-section .container .card .social-contact {
+  right: -100%;
+  transform: translateY(-50%);
+  width: 45px;
+  height: 170px;
+  background-color: var(--main-color);
+  border-radius: 15px 0px 0px 15px;
+  transition: var(--main-transition);
+  box-shadow: -2rem 0 2rem rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.team-section .container .card:hover .social-contact {
+  right: 0%;
+}
+
+.team-section .container .card .social-contact a {
+  transition: var(--main-transition);
+}
+
+.team-section .container .card .social-contact a:hover {
+  background-color: var(--ninth-color);
+}
+
+
+.team-section .container .card .social-contact a svg {
+  padding: 18px !important;
+}
+/* end team section  */

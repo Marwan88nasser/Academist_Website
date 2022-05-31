@@ -1,0 +1,157 @@
+/* start global variables */
+* {
+  --main-color: #6c63ff;
+  --secondary-color: #00bf8e;
+  --third-color: #fff;
+  --fourth-color: #000;
+  --fifth-color: #f7c94b;
+  --sixth-color: #f75842;
+  --Seventh-color: #1f2641;
+  --eighth-color: #2e3267;
+  --ninth-color: #424890;
+  --color-dgr1: rgba(247, 88, 66, 0.6);
+  ---color-dgr2: rgba(255, 255, 255, 0.7);
+  --main-transition: 0.4s;
+}
+/* end global variables */
+/* start contact */
+.contact .container  {
+  background-color: var(--ninth-color) !important;
+}
+
+.contact .container .contact-card-info {
+  background-color: #6c67cc;
+  border-radius: 10px !important;
+}
+
+.contact .container .contact-card-info .image-holder {
+  width: 300px;
+  height: 170px;
+}
+
+.contact .container .info > li > p {
+  font-size: 15px;
+}
+
+.contact .container .contact-icons li {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: var(--ninth-color);
+  transition: var(--main-transition);
+  cursor: pointer;
+}
+
+.contact .container .contact-icons li:hover:first-child {
+  background-color: #1877f2;
+}
+
+.contact .container .contact-icons li:hover:nth-child(2) {
+  background-color: #e1306c;
+}
+
+.contact .container .contact-icons li:hover:nth-child(3) {
+  background-color: #0d6efd;
+}
+.contact .container .contact-icons li:hover:last-child {
+  background-color: #1da1f2;
+}
+
+.contact .container .contact-icons li svg {
+  font-size: 19px;
+}
+
+@media (max-width: 768px) {
+  .contact .container .contact-card-info .image-holder {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact {
+    padding: 160px 0 150px 0px !important;
+  }
+  .contact .container .effect {
+    top: -85px;
+    left: 10px;
+    position: absolute;
+  }
+}
+
+/* --start the form-- */
+.contact .container .contact-form .user-inputs > .input-control {
+  width: 49%;
+}
+
+.contact .container .contact-form .input-control label {
+  cursor: pointer;
+}
+
+.contact .container .contact-form .input-control svg {
+  top: 42px;
+  right: 10px;
+  visibility: hidden;
+}
+
+.contact .container .contact-form .input-control small {
+  font-size: 13px;
+  visibility: hidden;
+}
+
+.contact .container .contact-form .input-control input:not([type="submit"]) {
+  outline: none;
+}
+
+.contact .container .contact-form .input-control.error input,
+.contact .container .contact-form .issue-massage .input-control.error textarea {
+  border: 2px solid #dc3545 !important;
+}
+
+.contact .container .contact-form .input-control.success input,
+.contact .container .contact-form .issue-massage .input-control.success textarea {
+  border: 2px solid green !important;
+}
+
+.contact
+  .container
+  .contact-form
+  .input-control
+  input:not([type="submit"]):focus::placeholder,
+.contact
+  .container
+  .contact-form
+  .issue-massage
+  .input-control
+  textarea:focus::placeholder {
+  opacity: 0;
+  transition: var(--main-transition);
+  visibility: visible;
+}
+
+.contact
+  .container
+  .contact-form
+  .input-control
+  input:not([type="submit"])::placeholder,
+.contact
+  .container
+  .contact-form
+  .issue-massage
+  .input-control
+  textarea::placeholder {
+  font-size: 14px;
+}
+
+.contact .container .contact-form .issue-massage .input-control textarea {
+  outline: none;
+  height: 190px;
+  border-radius: 6px;
+}
+
+.contact .container .contact-form .button-effect {
+  width: 150px;
+  height: 40px;
+  font-size: 17px;
+}
+
+/* end contact */

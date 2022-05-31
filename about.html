@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <!-- swiper js library -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-md bg-transparent position-fixed w-100">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="images/Logo-light.png"
+            alt="Website logo"
+            class="logo d-inline-block align-text-center"
+          />
+        </a>
+        <!-- position-absolute -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link position-relative text-white" href="index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link position-relative text-white" href="about.html"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link position-relative text-white" href="courses.html"
+              >Courses</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link position-relative text-white" href="contact.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <div
+          class="burger-icon position-relative d-flex d-md-none align-items-center justify-content-center"
+        >
+          <div class="lines rounded-pill bg-white"></div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- start achievement section -->
+    <div class="achievement-section py-5">
+      <div class="container pt-5">
+        <div class="row g-4">
+          <div
+            class="col-md-6 d-flex flex-column justify-content-center d-lg-block"
+          >
+            <div class="ach-image">
+              <img
+                src="images/about-image.svg"
+                alt="achievement-image"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 d-lg-flex flex-lg-column justify-content-center">
+            <div class="achievement-description">
+              <h1 class="text-white text-capitalize mb-3">achievement</h1>
+              <p class="text-light fw-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                itaque sit nisi fugiat! Dolorum esse deleniti sint in dolore
+                vero.
+              </p>
+            </div>
+            <div class="row mt-3 g-3">
+              <div class="col-sm-6 col-lg-4">
+                <div
+                  class="card p-3 d-flex flex-column align-items-center justify-content-center"
+                >
+                  <div
+                    class="icon-holder text-white course d-flex align-items-center justify-content-center mb-2"
+                  >
+                    <i class="fa-solid fa-video"></i>
+                  </div>
+                  <span
+                    class="counter-numbers text-white fs-4 fw-bold my-1"
+                    data-target="2000"
+                    >0</span
+                  >
+                  <small class="card-text text-capitalize text-white fw-light"
+                    >courses</small
+                  >
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <div
+                  class="card p-3 d-flex flex-column align-items-center justify-content-center"
+                >
+                  <div
+                    class="icon-holder text-white student d-flex align-items-center justify-content-center mb-2"
+                  >
+                    <i class="fa-solid fa-user-group"></i>
+                  </div>
+                  <span
+                    class="counter-numbers text-white fs-4 my-1 fw-bold"
+                    data-target="9000"
+                    >0</span
+                  >
+                  <small class="card-text text-capitalize text-white fw-light"
+                    >student</small
+                  >
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <div
+                  class="card p-3 d-flex flex-column align-items-center justify-content-center"
+                >
+                  <div
+                    class="icon-holder text-white awards d-flex align-items-center justify-content-center mb-2"
+                  >
+                    <i class="fa-solid fa-award"></i>
+                  </div>
+                  <span
+                    class="counter-numbers text-white fs-4 my-1 fw-bold"
+                    data-target="1500"
+                    >0</span
+                  >
+                  <small class="card-text text-capitalize text-white fw-light"
+                    >awards</small
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end achievement section -->
+    <!-- start team section -->
+    <div class="team-section py-5">
+      <div
+        class="title-section d-flex align-items-center justify-content-center my-5 mt-lg-0"
+      >
+        <h2
+          class="section-name text-white text-capitalize position-relative mb-5"
+        >
+          meet our team
+        </h2>
+      </div>
+      <div class="container">
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4"
+        >
+          <div class="col">
+            <div
+              class="card position-relative d-flex flex-column align-items-center justify-content-center p-4"
+            >
+              <div
+                class="team-image d-flex align-items-center justify-content-center mb-3 px-md-2 px-lg-1"
+              >
+                <img
+                  src="images/our-team-1.jpg"
+                  class="img-fluid rounded-3"
+                  alt="team-image"
+                />
+              </div>
+              <div class="card-body p-0 text-center">
+                <h5 class="card-title text-capitalize text-white mb-2">
+                  Olivia Liam
+                </h5>
+                <small class="card-text text-capitalize fw-light"
+                  >expert tutor</small
+                >
+              </div>
+              <div
+                class="social-contact position-absolute top-50 d-flex flex-column align-items-center justify-content-center"
+              >
+                <a href="https://www.linkedin.com/" target="_blank">
+                  <i class="fa-brands fa-linkedin text-white"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                  <i class="fa-brands fa-twitter text-white"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <i class="fa-brands fa-instagram text-white"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card position-relative d-flex flex-column align-items-center justify-content-center p-4"
+            >
+              <div
+                class="team-image d-flex align-items-center justify-content-center mb-3 px-md-2 px-lg-1"
+              >
+                <img
+                  src="images/our-team-2.jpg"
+                  class="img-fluid rounded-3"
+                  alt="team-image"
+                />
+              </div>
+              <div class="card-body p-0 text-center">
+                <h5 class="card-title text-capitalize text-white mb-2">
+                  Charlotte Noah
+                </h5>
+                <small class="card-text text-capitalize fw-light"
+                  >expert tutor</small
+                >
+              </div>
+              <div
+                class="social-contact position-absolute top-50 d-flex flex-column align-items-center justify-content-center"
+              >
+                <a href="https://www.linkedin.com/" target="_blank">
+                  <i class="fa-brands fa-linkedin text-white"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                  <i class="fa-brands fa-twitter text-white"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <i class="fa-brands fa-instagram text-white"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card position-relative d-flex flex-column align-items-center justify-content-center p-4"
+            >
+              <div
+                class="team-image d-flex align-items-center justify-content-center mb-3 px-md-2 px-lg-1"
+              >
+                <img
+                  src="images/our-team-3.jpg"
+                  class="img-fluid rounded-3"
+                  alt="team-image"
+                />
+              </div>
+              <div class="card-body p-0 text-center">
+                <h5 class="card-title text-capitalize text-white mb-3">
+                  Amelia Elijah
+                </h5>
+                <small class="card-text text-capitalize fw-light"
+                  >expert tutor</small
+                >
+              </div>
+              <div
+                class="social-contact position-absolute top-50 d-flex flex-column align-items-center justify-content-center"
+              >
+                <a href="https://www.linkedin.com/" target="_blank">
+                  <i class="fa-brands fa-linkedin text-white"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                  <i class="fa-brands fa-twitter text-white"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <i class="fa-brands fa-instagram text-white"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card position-relative d-flex flex-column align-items-center justify-content-center p-4"
+            >
+              <div
+                class="team-image d-flex align-items-center justify-content-center mb-3 px-md-2 px-lg-1"
+              >
+                <img
+                  src="images/our-team-4.jpg"
+                  class="img-fluid rounded-3"
+                  alt="team-image"
+                />
+              </div>
+              <div class="card-body p-0 text-center">
+                <h5 class="card-title text-capitalize text-white mb-3">
+                  William Benjamin
+                </h5>
+                <small class="card-text text-capitalize fw-light"
+                  >expert tutor</small
+                >
+              </div>
+              <div
+                class="social-contact position-absolute top-50 d-flex flex-column align-items-center justify-content-center"
+              >
+                <a href="https://www.linkedin.com/" target="_blank">
+                  <i class="fa-brands fa-linkedin text-white"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                  <i class="fa-brands fa-twitter text-white"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <i class="fa-brands fa-instagram text-white"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card position-relative d-flex flex-column align-items-center justify-content-center p-4"
+            >
+              <div
+                class="team-image d-flex align-items-center justify-content-center mb-3 px-md-2 px-lg-1"
+              >
+                <img
+                  src="images/our-team-5.jpg"
+                  class="img-fluid rounded-3"
+                  alt="team-image"
+                />
+              </div>
+              <div class="card-body p-0 text-center">
+                <h5 class="card-title text-capitalize text-white mb-3">
+                  Lucas James
+                </h5>
+                <small class="card-text text-capitalize fw-light"
+                  >expert tutor</small
+                >
+              </div>
+              <div
+                class="social-contact position-absolute top-50 d-flex flex-column align-items-center justify-content-center"
+              >
+                <a href="https://www.linkedin.com/" target="_blank">
+                  <i class="fa-brands fa-linkedin text-white"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                  <i class="fa-brands fa-twitter text-white"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <i class="fa-brands fa-instagram text-white"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card position-relative d-flex flex-column align-items-center justify-content-center p-4"
+            >
+              <div
+                class="team-image d-flex align-items-center justify-content-center mb-3 px-md-2 px-lg-1"
+              >
+                <img
+                  src="images/our-team-6.jpg"
+                  class="img-fluid rounded-3"
+                  alt="team-image"
+                />
+              </div>
+              <div class="card-body p-0 text-center">
+                <h5 class="card-title text-capitalize text-white mb-3">
+                  Ava Henry
+                </h5>
+                <small class="card-text text-capitalize fw-light"
+                  >expert tutor</small
+                >
+              </div>
+              <div
+                class="social-contact position-absolute top-50 d-flex flex-column align-items-center justify-content-center"
+              >
+                <a href="https://www.linkedin.com/" target="_blank">
+                  <i class="fa-brands fa-linkedin text-white"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                  <i class="fa-brands fa-twitter text-white"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <i class="fa-brands fa-instagram text-white"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card position-relative d-flex flex-column align-items-center justify-content-center p-4"
+            >
+              <div
+                class="team-image d-flex align-items-center justify-content-center mb-3 px-md-2 px-lg-1"
+              >
+                <img
+                  src="images/our-team-7.jpg"
+                  class="img-fluid rounded-3"
+                  alt="team-image"
+                />
+              </div>
+              <div class="card-body p-0 text-center">
+                <h5 class="card-title text-capitalize text-white mb-3">
+                  Isabella Jack
+                </h5>
+                <small class="card-text text-capitalize fw-light"
+                  >expert tutor</small
+                >
+              </div>
+              <div
+                class="social-contact position-absolute top-50 d-flex flex-column align-items-center justify-content-center"
+              >
+                <a href="https://www.linkedin.com/" target="_blank">
+                  <i class="fa-brands fa-linkedin text-white"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                  <i class="fa-brands fa-twitter text-white"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <i class="fa-brands fa-instagram text-white"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card position-relative d-flex flex-column align-items-center justify-content-center p-4"
+            >
+              <div
+                class="team-image d-flex align-items-center justify-content-center mb-3 px-md-2 px-lg-1"
+              >
+                <img
+                  src="images/our-team-8.jpg"
+                  class="img-fluid rounded-3"
+                  alt="team-image"
+                />
+              </div>
+              <div class="card-body p-0 text-center">
+                <h5 class="card-title text-capitalize text-white mb-3">
+                  Mason Sebastian
+                </h5>
+                <small class="card-text text-capitalize fw-light"
+                  >expert tutor</small
+                >
+              </div>
+              <div
+                class="social-contact position-absolute top-50 d-flex flex-column align-items-center justify-content-center"
+              >
+                <a href="https://www.linkedin.com/" target="_blank">
+                  <i class="fa-brands fa-linkedin text-white"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                  <i class="fa-brands fa-twitter text-white"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <i class="fa-brands fa-instagram text-white"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end team section -->
+    <!-- start footer -->
+    <footer class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="us text-center text-md-start">
+              <a class="brand" href="index.html">
+                <img
+                  src="images/Logo-light.png"
+                  alt="Website logo"
+                  class="logo mb-3"
+                />
+              </a>
+              <p class="text-white fw-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                provident hic accusamus. Voluptatibus officiis dicta vero?
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="permalinks text-center text-md-start">
+              <h4 class="text-white text-capitalize">permalinks</h4>
+              <ul class="footer-link list-unstyled">
+                <li class="mb-2">
+                  <a
+                    href="index.html"
+                    class="text-white text-capitalize text-decoration-none fw-light"
+                    >home</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a
+                    href="about.html"
+                    class="text-white text-capitalize text-decoration-none fw-light"
+                    >about</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a
+                    href="courses.html"
+                    class="text-white text-capitalize text-decoration-none fw-light"
+                    >courses</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a
+                    href="contact.html"
+                    class="text-white text-capitalize text-decoration-none fw-light"
+                    >contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="primacy text-center text-md-start">
+              <h4 class="text-white text-capitalize">primacy</h4>
+              <ul class="footer-link list-unstyled">
+                <li
+                  class="mb-2 text-white text-capitalize text-decoration-none fw-light"
+                >
+                  privacy policy
+                </li>
+                <li
+                  class="mb-2 text-white text-capitalize text-decoration-none fw-light"
+                >
+                  terms & conditions
+                </li>
+                <li
+                  class="mb-2 text-white text-capitalize text-decoration-none fw-light"
+                >
+                  refund pplicy
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="info text-center text-md-start">
+              <h4 class="text-white text-capitalize">contact us</h4>
+              <p class="text-white text-capitalize mb-2 fw-light">
+                +01 234 567 891
+              </p>
+              <p class="text-white text-capitalize fw-light">
+                academist229@gmail.com
+              </p>
+              <ul
+                class="social d-flex align-items-center justify-content-center justify-content-md-start ps-0 mb-0"
+              >
+                <li
+                  class="d-flex align-items-center justify-content-center rounded-circle me-3"
+                >
+                  <a
+                    href="#"
+                    class="d-flex align-items-center justify-content-center"
+                  >
+                    <i
+                      class="fa-brands fa-facebook facebook-icon text-white fs-5"
+                    ></i>
+                  </a>
+                </li>
+                <li
+                  class="d-flex align-items-center justify-content-center rounded-circle me-3"
+                >
+                  <a
+                    href="#"
+                    class="d-flex align-items-center justify-content-center"
+                  >
+                    <i
+                      class="fa-brands fa-twitter twitter-icon text-white fs-5"
+                    ></i>
+                  </a>
+                </li>
+                <li
+                  class="d-flex align-items-center justify-content-center rounded-circle me-3"
+                >
+                  <a
+                    href="#"
+                    class="d-flex align-items-center justify-content-center"
+                  >
+                    <i
+                      class="fa-brands fa-linkedin linkedin-icon text-white fs-5"
+                    ></i>
+                  </a>
+                </li>
+                <li
+                  class="d-flex align-items-center justify-content-center rounded-circle"
+                >
+                  <a
+                    href="#"
+                    class="d-flex align-items-center justify-content-center"
+                  >
+                    <i
+                      class="fa-brands fa-youtube youtube-icon text-white fs-5"
+                    ></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <!-- swiper js library -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script></script>
+  </body>
+</html>
